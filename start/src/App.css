@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Poppins&family=Quicksand:wght@500&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main__button
+{
+    background-color: rgba(5, 96, 253, 1);
+}
+.main__email
+{
+    /* background-image: url(./images/user__email.png); */
+    background-repeat: no-repeat;
+    padding-left: 10%;   
+}
+.main__pass
+{
+    /* background-image: url(./images/vector.png); */
+    background-repeat: no-repeat;
+    padding-left: 10%;   
+}
+.main__signup
+{
+    color: rgba(5, 96, 253, 1);
+    text-decoration: underline;
+}
+.chart__div
+{
+    background-color: rgb(241,244,249);
+}
+.chart__color
+{
+    background-color:rgba(5, 96, 253, 1);
+}
+.chart__color__secondary
+{
+    background-color: rgba(221, 228, 238, 1);
+}
+.chart__team
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chart__scrool
+{
+    background-color:rgba(221, 228, 238, 1);
+}
+/* animation starts */
+.animation__1
+{
+    animation-name: animation__1;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes animation__1
+{
+    0%
+   {
+    height: 0;
+   }
+}
+
+.animation__2
+{
+    animation-name: animation__1;
+    animation-duration: 4s;
+    /* animation-delay: 0.5s; */
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes animation__1
+{
+    0%
+   {
+    height: 0;
+   }
+}
+.animation__3
+{
+    animation-name: animation__1;
+    animation-duration: 5s;
+    /* animation-delay: 1.5s; */
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes animation__1
+{
+    0%
+   {
+    height: 0;
+   }
+}
+.animation__tick
+{
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: animation__tick;
+}
+.input__search::placeholder
+{
+    padding-left: 10%;
+}
